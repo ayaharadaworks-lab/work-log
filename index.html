@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<title>WORK LOG</title>
+
+
+<link rel="stylesheet" href="css/style.css">
+
+
+<link rel="manifest" href="manifest.json">
+
+
+<meta name="theme-color" content="#D98FA1">
+
+
+</head>
+
+
+
+<body>
+
+
+<div class="app">
+
+
+
+<header>
+
+<h1 class="logo">
+🍓 WORK LOG
+</h1>
+
+
+</header>
+
+
+
+
+
+
+<section class="card">
+
+
+<p class="small-text">
+今日
+</p>
+
+
+<h2 id="today">
+
+</h2>
+
+
+</section>
+
+
+
+
+
+
+
+
+<section class="card">
+
+
+<p class="small-text">
+作業案件
+</p>
+
+
+
+<select id="projectSelect">
+
+</select>
+
+
+</section>
+
+
+
+
+
+
+
+
+
+<section class="card time-card">
+
+
+<p class="time-label">
+
+今日の作業時間
+
+</p>
+
+
+
+<div id="timer" class="timer">
+
+00:00:00
+
+</div>
+
+
+
+<p id="status" class="small-text">
+
+待機中
+
+</p>
+
+
+</section>
+
+
+
+
+
+
+
+
+
+<button
+
+id="workButton"
+
+class="btn btn-primary">
+
+▶ 出勤する
+
+</button>
+
+
+
+
+
+
+
+
+
+<section class="card">
+
+
+<h2>
+
+今日の記録
+
+</h2>
+
+
+
+<div id="todayRecords">
+
+
+<p class="small-text">
+
+まだ記録がありません
+
+</p>
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+
+<section class="card summary-card">
+
+
+<p class="small-text">
+
+今月の作業時間
+
+</p>
+
+
+
+<strong
+
+id="monthTotal"
+
+class="summary-number">
+
+0時間0分
+
+</strong>
+
+
+</section>
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+<nav>
+
+
+<div
+
+class="nav-item nav-active"
+
+onclick="location.href='index.html'">
+
+🏠
+
+<span>
+ホーム
+</span>
+
+</div>
+
+
+
+
+
+<div
+
+class="nav-item"
+
+onclick="location.href='calendar.html'">
+
+📅
+
+<span>
+カレンダー
+</span>
+
+</div>
+
+
+
+
+
+<div
+
+class="nav-item"
+
+onclick="location.href='monthly.html'">
+
+📊
+
+<span>
+月管理
+</span>
+
+</div>
+
+
+
+
+
+<div
+
+class="nav-item"
+
+onclick="location.href='projects.html'">
+
+🗂
+
+<span>
+案件
+</span>
+
+</div>
+
+
+
+<div
+
+class="nav-item"
+
+onclick="location.href='settings.html'">
+
+⚙
+
+<span>
+設定
+</span>
+
+</div>
+
+
+</nav>
+
+
+
+
+
+
+
+<script src="js/app.js"></script>
+
+<script src="js/home.js"></script>
+
+
+</body>
+
+
+</html>
