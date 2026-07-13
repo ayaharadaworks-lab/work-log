@@ -19,6 +19,12 @@
 
 <meta name="theme-color" content="#D98FA1">
 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@500;700&display=swap" rel="stylesheet">
+
 
 </head>
 
@@ -43,49 +49,41 @@
 
 
 
+<div class="top-cards">
 
+    <section class="card compact-card">
 
-<section class="card">
+        <p class="small-text">
+            今日
+        </p>
 
+        <h2 id="today"></h2>
 
-<p class="small-text">
-今日
-</p>
+    </section>
 
+    <section class="card compact-card">
 
-<h2 id="today">
+        <p class="small-text">
+            作業案件
+        </p>
 
-</h2>
+        <select id="projectSelect"></select>
 
+    </section>
 
-</section>
-
-
-
-
-
-
-
-
-<section class="card">
-
-
-<p class="small-text">
-作業案件
-</p>
+</div>
 
 
 
-<select id="projectSelect">
+<button
 
-</select>
+id="workButton"
 
+class="btn btn-primary">
 
-</section>
+▶ 出勤する
 
-
-
-
+</button>
 
 
 
@@ -126,26 +124,7 @@
 
 
 
-
-<button
-
-id="workButton"
-
-class="btn btn-primary">
-
-▶ 出勤する
-
-</button>
-
-
-
-
-
-
-
-
-
-<section class="card">
+<section class="card compact-card">
 
 
 <h2>

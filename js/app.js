@@ -195,17 +195,9 @@ function calculateMinutes(start,end){
 
 function formatMinutes(minutes){
 
+    const hours = (minutes / 60).toFixed(1);
 
-    const h =
-        Math.floor(minutes / 60);
-
-
-    const m =
-        minutes % 60;
-
-
-
-    return `${h}時間${m}分`;
+    return `${hours}時間`;
 
 }
 
