@@ -350,16 +350,18 @@ inset 0 -1px 2px rgba(255,255,255,.2);
 
 .btn-work{
 
-    background:
-linear-gradient(
-135deg,
-#FFDCE7 0%,
-#FFF5F8 40%,
-#F7F6FF 100%
-);
-    color:white;
+    background:linear-gradient(
+        135deg,
+        #8F8F8F,
+        #666666
+    );
 
-    box-shadow:0 10px 25px rgba(0,0,0,.15);
+    color:#FFFFFF;
+
+    border:1px solid rgba(255,255,255,.35);
+
+    box-shadow:
+        0 10px 25px rgba(0,0,0,.15);
 
 }
 
